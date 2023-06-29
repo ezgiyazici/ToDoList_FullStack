@@ -17,9 +17,6 @@ function App() {
         >
           Learn React
         </a>
-        <h1>
-          denemen
-        </h1>
       </header>
     </div>
   );
