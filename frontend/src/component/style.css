@@ -1,11 +1,13 @@
-
-* {
-    box-sizing: border-box;
-  }
 header h1{
     text-align: center;
 
     margin-top: 40px;
+    color: #f44336;
+}
+header h2{
+    text-align: center;
+
+    margin-top: 140px;
 }
 .header {
     position: absolute;
@@ -17,6 +19,7 @@ header h1{
     height: 120px;
     padding: 10px;
     border: 5px solid gray;
+    margin-bottom: 20px;
     margin: 0;
   }
   input {
@@ -72,10 +75,8 @@ header h1{
     border: 1px solid transparent;
     border-radius: 4px;
     text-decoration: none;
-    color : #e7e7e7;
+    color : #882a2a;
   }
   
   .button2 {background-color: #008CBA;} /* Blue */
   .button3 {background-color: #f44336;} /* Red */ 
-  .button4 {background-color: #e7e7e7; color: black;} /* Gray */ 
-  .button5 {background-color: #555555;} /* Black */

@@ -2,9 +2,7 @@
 import React, { Component } from 'react'
 
 // Header, Main,Footer
-import Header from './Header';
 import Main from './Main';
-import Footer from './Footer';
 
 // i18n 
 import { withTranslation } from 'react-i18next';
@@ -49,7 +47,6 @@ class RouterMain extends Component {
             //<React.Fragment>Header</React.Fragment>
             <React.Fragment>
                 <Router>
-                    <Header logo="fa-solid fa-blog" homePageLink="http://localhost:3000/index" />
                     <div className="container">
                         <Switch>
                             <Route path="/" exact component={Main}></Route>
@@ -63,7 +60,6 @@ class RouterMain extends Component {
                             <Redirect to="/"/>
                         </Switch>
                     </div>
-                    <Footer copy="&copy; Bütün haklar Saklıdır." />
                 </Router>
             </React.Fragment>
         ) //end return
