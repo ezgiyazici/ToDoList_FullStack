@@ -1,0 +1,81 @@
+
+* {
+    box-sizing: border-box;
+  }
+header h1{
+    text-align: center;
+
+    margin-top: 40px;
+}
+.header {
+    position: absolute;
+    top: 20%;
+    left: 20%;
+    margin-top: -20px;
+    margin-left: -20px;
+    width: 1000px;
+    height: 120px;
+    padding: 10px;
+    border: 5px solid gray;
+    margin: 0;
+  }
+  input {
+    margin: 0;
+    border-radius: 0;
+    width: 75%;
+    padding: 10px;
+    float: left;
+    font-size: 16px;
+  }
+  .icon_size {
+    font-size: 2.8rem;
+}
+.input-icons i {
+    position: absolute;
+    color: #008CBA;
+}
+  
+.input-icons {
+    width: 100%;
+    margin-bottom: 10px;
+}
+  
+.icon {
+    padding: 10px;
+    min-width: 40px;
+}
+  
+.input-field {
+    width: 100%;
+    padding: 10px;
+    text-align: center;
+}
+
+.button {
+    display: inline-block;
+    padding: 6px 472px;
+    margin-top: 10px;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1.42857143;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    -ms-touch-action: manipulation;
+    touch-action: manipulation;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    background-image: none;
+    border: 1px solid transparent;
+    border-radius: 4px;
+    text-decoration: none;
+    color : #e7e7e7;
+  }
+  
+  .button2 {background-color: #008CBA;} /* Blue */
+  .button3 {background-color: #f44336;} /* Red */ 
+  .button4 {background-color: #e7e7e7; color: black;} /* Gray */ 
+  .button5 {background-color: #555555;} /* Black */
